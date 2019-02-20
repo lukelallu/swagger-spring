@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lookup:war">
+    <output-path>$PROJECT_DIR$/../../lk/target</output-path>
+    <root id="archive" name="lookup.war">
+      <element id="artifact" artifact-name="lookup:war exploded" />
+    </root>
+  </artifact>
+</component>
