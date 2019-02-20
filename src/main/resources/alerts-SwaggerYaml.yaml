@@ -1,0 +1,103 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: API
+  description: ''
+  contact: {}
+host: us02vlint4041:11003
+basePath: /iplat-alerts-adaptor/alerts
+schemes:
+- http
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  //alertEventStatus/{id}:
+    get:
+      description: ''
+      summary: AlertEventStatusById_GET
+      operationId: AlertEventStatusByIdGet
+      deprecated: false
+      produces:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        required: true
+        type: string
+        description: ''
+      responses:
+        200:
+          description: ''
+          schema:
+            $ref: '#/definitions/AlertEventStatusById_GETResponse'
+          headers: {}
+  //sendAlertEvent:
+    post:
+      description: ''
+      summary: SendAlertEvent_POST
+      operationId: SendAlertEventPost
+      deprecated: false
+      produces:
+      - '*/*'
+      parameters:
+      - name: body
+        in: body
+        required: true
+        description: ''
+        schema:
+          $ref: '#/definitions/SendAlertEvent_POSTRequest'
+      responses:
+        200:
+          description: ''
+          schema:
+            $ref: '#/definitions/SendAlertEvent_POSTResponse'
+          headers: {}
+  //voiceRequestContext/{id}:
+    get:
+      description: ''
+      summary: VoiceRequestContextById_GET
+      operationId: VoiceRequestContextByIdGet
+      deprecated: false
+      produces:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        required: true
+        type: string
+        description: ''
+      responses:
+        200:
+          description: ''
+          schema:
+            $ref: '#/definitions/VoiceRequestContextById_GETResponse'
+          headers: {}
+definitions:
+  AlertEventStatusById_GETResponse:
+    title: AlertEventStatusById_GETResponse
+    description: ''
+    type: object
+    properties:
+      result:
+        type: string
+  SendAlertEvent_POSTResponse:
+    title: SendAlertEvent_POSTResponse
+    description: ''
+    type: object
+    properties:
+      result:
+        type: string
+  SendAlertEvent_POSTRequest:
+    title: SendAlertEvent_POSTRequest
+    description: ''
+    type: object
+  VoiceRequestContextById_GETResponse:
+    title: VoiceRequestContextById_GETResponse
+    description: ''
+    type: object
+    properties:
+      result:
+        type: string
+tags: []

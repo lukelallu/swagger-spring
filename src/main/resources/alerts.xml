@@ -1,0 +1,41 @@
+<application xmlns="http://wadl.dev.java.net/2009/02" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <grammars></grammars>
+    <resources base="http://us02vlint4041:11003/iplat-alerts-adaptor/alerts">
+        <resource path="/">
+            <resource path="alertEventStatus/{id}">
+                <param name="id" style="template" type="xs:string"/>
+                <method name="GET">
+                    <request></request>
+                    <response>
+                        <representation mediaType="application/json">
+                            <param name="result" style="plain" type="xs:string"/>
+                        </representation>
+                    </response>
+                </method>
+            </resource>
+            <resource path="sendAlertEvent">
+                <method name="POST">
+                    <request>
+                        <representation mediaType="application/json"/>
+                    </request>
+                    <response>
+                        <representation mediaType="*/*">
+                            <param name="result" style="plain" type="xs:string"/>
+                        </representation>
+                    </response>
+                </method>
+            </resource>
+            <resource path="voiceRequestContext/{id}">
+                <param name="id" style="template" type="xs:string"/>
+                <method name="GET">
+                    <request></request>
+                    <response>
+                        <representation mediaType="application/json">
+                            <param name="result" style="plain" type="xs:string"/>
+                        </representation>
+                    </response>
+                </method>
+            </resource>
+        </resource>
+    </resources>
+</application>
