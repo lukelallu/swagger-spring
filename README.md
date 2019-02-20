@@ -19,3 +19,55 @@ Change default port value in application.properties
 
 Swagger
 http://localhost:1103/alert-processor/alerts/swagger-ui.html
+
+mvn clean install
+
+war[alert-processor] file deploy in tomcat / app server
+
+POST on http://localhost:1103/alert-processor/alerts/sendAlertEvent/
+
+Request {
+            "alertDateTime": "2015-12-23T21:35:21.344Z",
+            "alertItemId": 909990,
+            "alertList": [
+                {
+                    "sms": {
+                        "languageCode": "EN",
+                        "userGroup": "PAYCEU",
+                        "userName": "CBRIDGES",
+                        "phoneNumber": "7044887048",
+                        "phoneNumberPrefix": null,
+                        "phoneNumberExtension": null,
+                        "phoneNumberPauseIndicator": null,
+                        "messageBody": "phone message",
+                        "shortCode": null,
+                        "priority": "High",
+                        "tenentId": "",
+                        "billingBankCode": "",
+                        "billingAccountNumber": "",
+                        "billingACHCompanyId": "",
+                        "billingACHCompanyName": "",
+                        "billingReportId": ""
+                    }
+                }
+            ],
+            "alertClass": "ACTION",
+            "alertType": "ALERTTYPE1"
+        }
+        
+Response {
+             "alertEventId": null,
+             "itemStatuses": [
+                 {
+                     "alertItemId": "909990",
+                     "type": null,
+                     "address": null,
+                     "status": "SUCCESS",
+                     "statusDate": null,
+                     "statusMessage": null,
+                     "attemptCount": 0,
+                     "lastAttemptDate": null
+                 }
+             ],
+             "result": null
+         }
