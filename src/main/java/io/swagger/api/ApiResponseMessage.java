@@ -5,15 +5,15 @@ import javax.xml.bind.annotation.XmlTransient;
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2019-02-19T13:22:33.560Z")
 
 @javax.xml.bind.annotation.XmlRootElement
-public class ApiResponseMessage {
-    public static final int ERROR = 1;
-    public static final int WARNING = 2;
-    public static final int INFO = 3;
-    public static final int OK = 4;
-    public static final int TOO_BUSY = 5;
+class ApiResponseMessage {
+    private static final int ERROR = 1;
+    private static final int WARNING = 2;
+    private static final int INFO = 3;
+    private static final int OK = 4;
+    private static final int TOO_BUSY = 5;
 
-    int code;
-    String type;
+    private int code;
+    private String type;
     String message;
 
     public ApiResponseMessage(){}
@@ -56,7 +56,7 @@ public class ApiResponseMessage {
         return type;
     }
 
-    public void setType(String type) {
+    private void setType(String type) {
         this.type = type;
     }
 

@@ -13,52 +13,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/README.md">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/pom.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/io/swagger/Swagger2SpringBoot.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/io/swagger/api/SendAlertEventApi.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/io/swagger/api/SendAlertEventApiController.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/io/swagger/model/AlertElement.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/io/swagger/model/AlertRequestItem.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/io/swagger/model/ItemStatus.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/io/swagger/model/SendAlertEventPOSTRequest.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/io/swagger/model/SendAlertEventPOSTResponse.java">
           <value>
             <set />
           </value>
@@ -68,27 +23,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/resources/alerts.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/swagger-spring.iml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../../lk/pom.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../../lk/readme.md">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../../lk/src/main/java/com/mandt/lk/Application.java">
           <value>
             <set />
           </value>
@@ -98,7 +33,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../lk/src/main/java/com/mandt/lk/config/CacheConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../lk/src/main/java/com/mandt/lk/config/CachingConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../lk/src/main/java/com/mandt/lk/model/LookUpResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../lk/src/main/java/com/mandt/lk/util/Util.java">
           <value>
             <set />
           </value>
@@ -108,12 +58,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../lk/src/main/resources/application.properties">
+        <entry key="$PROJECT_DIR$/../../lk/src/main/java/com/mandt/lk/util/UtilityAbstract.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../../lk/src/main/resources/mini/wiremini.txt">
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>
